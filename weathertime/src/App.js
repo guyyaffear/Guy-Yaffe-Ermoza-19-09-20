@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { connect } from 'react-redux'
-import { bindActionCreators, combineReducers } from 'redux'
+import { bindActionCreators} from 'redux'
 import fetchMainWeather from './redux/actions/fetchMainWeather'
 import fetchApiSucceed from './redux/actions/fetchApiSucceed'
 import fetchApiFailed from './redux/actions/fetchApiFailed'

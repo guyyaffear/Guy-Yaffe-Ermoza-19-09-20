@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import tempToggleUnit from '../../redux/actions/tempToggle'
-import darkmodeToggle from '../../redux/actions/drakmodeToggle'
 import './MainNavbar.css'
 
 class MainNavbar extends Component {
@@ -13,14 +12,10 @@ class MainNavbar extends Component {
     constructor(props) {
         super(props)
         this.handleChange = this.handleChange.bind(this)
-        // this.handleChangeMode = this.handleChangeMode.bind(this)
 
     }
 
-    // handleChangeMode(){
-    //     this.props.toggleMode()
 
-    // }
     handleChange() {
         this.props.toggleUnit()
     }
@@ -73,7 +68,6 @@ function matchDispatchToProps(dispatch) {
     return bindActionCreators(
         {
             toggleUnit: tempToggleUnit,
-            // toggleMode : drakmodeToggle
 
         }, dispatch);
 }

@@ -1,0 +1,43 @@
+.navbar-container {
+    margin: 30px;
+    background-color: #ffffff;
+    opacity: 0.8
+    
+}
+
+.left-menu-item {
+    margin-left: auto;
+}
+
+.second-item-right {
+    margin-left: 50px;
+}
+
+.third-item-right {
+    margin-left: 50px;
+}
+
+.title {
+    font-family: 'Francois One', sans-serif;
+}
+
+.active {
+    color: black;
+    transition: color .2s;
+}
+
+.active:hover {
+    color: blue;
+}
+
+@media only screen and (max-width: 767px) {
+    .second-item-right {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    
+    .third-item-right {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}

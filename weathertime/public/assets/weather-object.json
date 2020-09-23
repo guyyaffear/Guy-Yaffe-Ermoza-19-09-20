@@ -1,0 +1,26 @@
+[
+    {
+      "LocalObservationDateTime": "2020-09-20T11:55:00+03:00",
+      "EpochTime": 1600592100,
+      "WeatherText": "Sunny",
+      "WeatherIcon": 1,
+      "HasPrecipitation": false,
+      "PrecipitationType": null,
+      "IsDayTime": true,
+      "Temperature": {
+        "Metric": {
+          "Value": 32.1,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Imperial": {
+          "Value": 90,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "MobileLink": "http://m.accuweather.com/en/il/tel-aviv-port/215793/current-weather/215793?lang=en-us",
+      "Link": "http://www.accuweather.com/en/il/tel-aviv-port/215793/current-weather/215793?lang=en-us"
+    }
+  ]
+  

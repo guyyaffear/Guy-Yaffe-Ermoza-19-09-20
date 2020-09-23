@@ -1,0 +1,153 @@
+[
+    {
+      "Version": 1,
+      "Key": "230555",
+      "Type": "City",
+      "Rank": 30,
+      "LocalizedName": "Tripoli",
+      "Country": {
+        "ID": "LY",
+        "LocalizedName": "Libya"
+      },
+      "AdministrativeArea": {
+        "ID": "TB",
+        "LocalizedName": "Tripoli"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "258353",
+      "Type": "City",
+      "Rank": 31,
+      "LocalizedName": "Trujillo",
+      "Country": {
+        "ID": "PE",
+        "LocalizedName": "Peru"
+      },
+      "AdministrativeArea": {
+        "ID": "LAL",
+        "LocalizedName": "La Libertad"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "321281",
+      "Type": "City",
+      "Rank": 31,
+      "LocalizedName": "Trabzon",
+      "Country": {
+        "ID": "TR",
+        "LocalizedName": "Turkey"
+      },
+      "AdministrativeArea": {
+        "ID": "61",
+        "LocalizedName": "Trabzon"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "32769",
+      "Type": "City",
+      "Rank": 41,
+      "LocalizedName": "Trinidad",
+      "Country": {
+        "ID": "BO",
+        "LocalizedName": "Bolivia"
+      },
+      "AdministrativeArea": {
+        "ID": "B",
+        "LocalizedName": "El Beni"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "216357",
+      "Type": "City",
+      "Rank": 41,
+      "LocalizedName": "Trento",
+      "Country": {
+        "ID": "IT",
+        "LocalizedName": "Italy"
+      },
+      "AdministrativeArea": {
+        "ID": "32",
+        "LocalizedName": "Trentino-Alto Adige"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "213117",
+      "Type": "City",
+      "Rank": 41,
+      "LocalizedName": "Trieste",
+      "Country": {
+        "ID": "IT",
+        "LocalizedName": "Italy"
+      },
+      "AdministrativeArea": {
+        "ID": "36",
+        "LocalizedName": "Friuli Venezia Giulia"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "307534",
+      "Type": "City",
+      "Rank": 41,
+      "LocalizedName": "Trincomalee",
+      "Country": {
+        "ID": "LK",
+        "LocalizedName": "Sri Lanka"
+      },
+      "AdministrativeArea": {
+        "ID": "5",
+        "LocalizedName": "Eastern"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "262680",
+      "Type": "City",
+      "Rank": 41,
+      "LocalizedName": "Trece Martires City",
+      "Country": {
+        "ID": "PH",
+        "LocalizedName": "Philippines"
+      },
+      "AdministrativeArea": {
+        "ID": "CAV",
+        "LocalizedName": "Cavite"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "329551",
+      "Type": "City",
+      "Rank": 41,
+      "LocalizedName": "Trenton",
+      "Country": {
+        "ID": "US",
+        "LocalizedName": "United States"
+      },
+      "AdministrativeArea": {
+        "ID": "NJ",
+        "LocalizedName": "New Jersey"
+      }
+    },
+    {
+      "Version": 1,
+      "Key": "356248",
+      "Type": "City",
+      "Rank": 41,
+      "LocalizedName": "Tra Vinh",
+      "Country": {
+        "ID": "VN",
+        "LocalizedName": "Vietnam"
+      },
+      "AdministrativeArea": {
+        "ID": "51",
+        "LocalizedName": "Trà Vinh"
+      }
+    }
+  ]
+  

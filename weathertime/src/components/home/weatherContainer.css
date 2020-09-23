@@ -1,0 +1,19 @@
+.main-weather-grid {
+    -webkit-box-shadow: 0px 7px 18px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 18px 0px rgba(0,0,0,0.75);
+    border: 1px solid #000000;
+    box-shadow: 0px 7px 18px 0px rgba(0,0,0,0.75);
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    margin: 40px 0 70px 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .main-weather-column {
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+    }
+}
+

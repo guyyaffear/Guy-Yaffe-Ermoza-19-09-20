@@ -7,6 +7,7 @@ import { bindActionCreators } from 'redux'
 import tempToggleUnit from '../../redux/actions/tempToggle'
 import './MainNavbar.css'
 
+
 class MainNavbar extends Component {
 
     constructor(props) {
@@ -21,7 +22,7 @@ class MainNavbar extends Component {
     }
 
     render() {
-               return (
+        return (
 
             <Container className="navbar-container">
                 <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
@@ -49,19 +50,13 @@ class MainNavbar extends Component {
                             <Header as="h1">
                                 <Checkbox onChange={this.handleChange} toggle />
                                 <Header.Subheader>{"°C"} | {"°F"}</Header.Subheader>
-                                </Header>
-                            </Nav>
-                            <Nav className="third-item-right">
-                            <Header as="h1">
-                            <Checkbox onChange={this.handleChange} toggle />
-                                <Header.Subheader>{"Dark"} | {"Light"}</Header.Subheader>
-                                </Header>
-                            </Nav>
+                            </Header>
+                        </Nav>
                     </Navbar.Collapse>
                 </Navbar>
             </Container>
-               )
-            }
+        )
+    }
 }
 
 function matchDispatchToProps(dispatch) {

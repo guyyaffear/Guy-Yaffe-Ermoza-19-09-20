@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component , useState } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { connect } from 'react-redux'
 import { bindActionCreators} from 'redux'
@@ -7,6 +7,9 @@ import fetchApiSucceed from './redux/actions/fetchApiSucceed'
 import fetchApiFailed from './redux/actions/fetchApiFailed'
 import { createMainWeatherObj } from './utils/mainWeatherObject'
 import { createGeolocationEndpoint, createCurrentWeatherEndpoint, createFiveDayForecastEndpoint } from './utils/createApicallsFun'
+import Monochroma from 'monochroma'
+
+
 
 /* Styles */
 import './App.css';
@@ -66,7 +69,6 @@ class App extends Component {
     var mainWeatherObject = createMainWeatherObj(cityKey, cityName, false, countryName, weatherObject, fiveDayForecastObject)
     this.props.fetchApiSucceed()
     this.props.fetchMainWeather(mainWeatherObject)
-    console.log("this is his Props",this.props);
 
   }
 
@@ -75,6 +77,7 @@ class App extends Component {
            <Router>
         <div id="container1">
         <div id="cloud-intro">
+        <Monochroma/>
         <div className="App">
           <MainNavbar />
           <Switch>

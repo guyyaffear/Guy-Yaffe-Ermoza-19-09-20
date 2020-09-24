@@ -64,7 +64,12 @@ class SearchForm extends Component {
         var fiveDayForecastObject = await fetch(createFiveDayForecastEndpoint(key))
             .then(res => res.json())
         var locationObject = this.state.locationObjects.filter(location => location.Key === key)
-        var mainWeatherObject = createMainWeatherObj(key, locationObject[0].LocalizedName, false, locationObject[0].Country.LocalizedName, weatherObject, fiveDayForecastObject)
+        var mainWeatherObject = createMainWeatherObj(key, locationObject[0].LocalizedName, false, locationObject[0].Country.LocalizedName, weatherObject, fiveDayForecastObject);
+        var myFavorites = this.props.favoritesArray;
+        var myFavs = myFavorites.filter(data => {return data.cityKey === key});
+ 
+       mainWeatherObject.isFavorite = myFavs && myFavs.length > 0;
+        
          this.props.fetchMainWeather(mainWeatherObject)
     }
 

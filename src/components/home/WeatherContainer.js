@@ -19,7 +19,7 @@ class MainWeatherContainer extends Component {
         if (this.props.isFavorite) {
             this.props.removeFav(this.props.cityKey)
         } else {
-            // console.log("this is the Obj",this.props)
+            console.log("this is the favorites Obj",this.props.favoritesArray)
             this.props.addingFav({
                 cityKey: this.props.cityKey,
                 cityName: this.props.cityName,
@@ -68,7 +68,7 @@ class MainWeatherContainer extends Component {
     }
 
     renderFailedMessage() {
-        return <h1>Failed fetching data from API!</h1>
+        return <h1>Failed getting data from API</h1>
     }
 
     render() {

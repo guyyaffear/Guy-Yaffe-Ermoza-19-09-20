@@ -65,7 +65,7 @@ class SearchForm extends Component {
             .then(res => res.json())
         var locationObject = this.state.locationObjects.filter(location => location.Key === key)
         var mainWeatherObject = createMainWeatherObj(key, locationObject[0].LocalizedName, false, locationObject[0].Country.LocalizedName, weatherObject, fiveDayForecastObject)
-        this.props.fetchMainWeather(mainWeatherObject)
+         this.props.fetchMainWeather(mainWeatherObject)
     }
 
     renderSearchDropdown() {
@@ -102,7 +102,8 @@ function matchDispatchToProps(dispatch) {
 }
 
 function mapStateToProps(state) {
-    return { fetchApiState: state.fetchApiState}
+    const favorites = state.favorites 
+    return { fetchApiState: state.fetchApiState,favoritesArray:favorites}
 }
 
 export default connect(mapStateToProps, matchDispatchToProps)(SearchForm)

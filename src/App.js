@@ -75,7 +75,7 @@ class App extends Component {
   render() {
     return (
            <Router>
-        <div id="container1">
+        <div id="animationbackgroundcontainer">
         <div id="cloud-intro">
         <Monochroma/>
         <div className="App">

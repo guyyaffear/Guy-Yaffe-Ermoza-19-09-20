@@ -6,13 +6,11 @@ import './styleForecastCard.css'
 export default class ForecastCard extends Component {
 
     getDayFromEpochDate(epochDate) {
-        // console.log("THis is",this.props , "this is TAMP",this.props.temperatureUnit)
         var date = (new Date(epochDate * 1000)).toLocaleDateString('en-us', { weekday: 'long' })
         return date
     }
 
     convertFarenheitToCelsius(val) {
-        //  console.log("i AM HERE IN THE CONVERT FUNC")
         return ((val - 32) * 5 / 9).toFixed(1)
     }
     

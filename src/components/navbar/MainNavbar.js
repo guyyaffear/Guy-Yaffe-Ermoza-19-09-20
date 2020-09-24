@@ -30,7 +30,7 @@ class MainNavbar extends Component {
                         <Header as="h1">
                             <Icon name="sun" size="big" color="yellow" />
                             <Header.Content className="title">
-                                Weather app
+                            Herolo Weather app
                         </Header.Content>
                         </Header>
                     </Navbar.Brand>

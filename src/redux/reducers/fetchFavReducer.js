@@ -5,7 +5,7 @@ const favorites = (state = initialState, action) => {
         case 'FETCH_FAVORITES':
             return action.payload
         case 'ADD_FAVORITE':
-            console.log(action.payload);
+            // console.log(action.payload);
             return [...state ,action.payload];
         case 'REMOVE_FAVORITE':
             return state.filter(weather => action.payload !== weather.cityKey)

@@ -1,4 +1,4 @@
-const apiKey = "Cv2nhbztH3YUAdfMkr0Sr2fjgm27GWNx"
+const apiKey = "69aUjd6YU5hYhrBkThDFTpGxPcC8ZLQb"
 
 export const createGeolocationEndpoint = (lat, lon) => {
     return "https://dataservice.accuweather.com/locations/v1/cities/geoposition/search?apikey=" + apiKey + "&q=" + lat + "%2C" + lon
